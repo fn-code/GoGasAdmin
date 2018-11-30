@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="60dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:background="@drawable/gas"
+                    android:layout_height="200dp"
+                    android:layout_centerInParent="true"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/email_login_form"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:layout_gravity="bottom"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/daftar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:textColor="#666"
+                    android:text="Data Driver"
+                    android:textAppearance="@style/TextAppearance.CastIntroOverlay.Button" />
+                <Button
+                    android:id="@+id/trans_masuk"
+                    android:layout_width="match_parent"
+                    android:text="Trasnsaksi Masuk"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:textColor="#666"
+                    android:textAppearance="@style/TextAppearance.CastIntroOverlay.Button" />
+                <Button
+                    android:id="@+id/lapTrans"
+                    android:layout_width="match_parent"
+                    android:text="Laporan Transaksi"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:textColor="#666"
+                    android:textAppearance="@style/TextAppearance.CastIntroOverlay.Button" />
+                <Button
+                    android:id="@+id/pesana"
+                    android:layout_width="match_parent"
+                    android:text="Data Pesanan"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:textColor="#666"
+                    android:textAppearance="@style/TextAppearance.CastIntroOverlay.Button" />
+                <Button
+                    android:id="@+id/lapMasya"
+                    android:layout_width="match_parent"
+                    android:text="Laporan Masyarakat"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:textColor="#666"
+                    android:textAppearance="@style/TextAppearance.CastIntroOverlay.Button" />
+                <Button
+                    android:id="@+id/stok"
+                    android:layout_width="match_parent"
+                    android:text="Stok Gas"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:textColor="#666"
+                    android:textAppearance="@style/TextAppearance.CastIntroOverlay.Button" />
+                <Button
+                    android:id="@+id/ubahPass"
+                    android:layout_width="match_parent"
+                    android:text="Ubah Password"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:textColor="#666"
+                    android:textAppearance="@style/TextAppearance.CastIntroOverlay.Button" />
+                <Button
+                    android:id="@+id/keluar"
+                    android:layout_width="match_parent"
+                    android:text="Keluar"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                    android:textColor="#666"
+                    android:textAppearance="@style/TextAppearance.CastIntroOverlay.Button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
